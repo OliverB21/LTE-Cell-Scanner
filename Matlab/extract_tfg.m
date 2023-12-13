@@ -34,11 +34,17 @@ freq_fine=peak.freq_fine;
 if nRB == 6
     conv_idx_ratio = 1;
     decimation_ratio = 16;
+elseif nRB == 50
+    conv_idx_ratio = 8;
+    decimation_ratio = 8;
+elseif nRB == 75
+    conv_idx_ratio = 12;
+    decimation_ratio = 4;
 elseif nRB == 100
     conv_idx_ratio = 16;
     decimation_ratio = 1;
 else
-    disp('nRB must be 6 or 100!');
+    disp('extrac_tfg: Supported nRBs - 6, 50, 75, 100');
     return;
 end
 

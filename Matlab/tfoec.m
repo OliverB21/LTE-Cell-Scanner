@@ -29,10 +29,14 @@ cp_type=peak.cp_type;
 % nRB = 6;
 if nRB == 6
     decimation_ratio = 16;
+elseif nRB == 50
+    decimation_ratio = 8;
+elseif nRB == 75
+    decimation_ratio = 4;
 elseif nRB == 100
     decimation_ratio = 1;
 else
-    disp('nRB must be 6 or 100!');
+    disp('tfoec.m: Supported nRBs - 6,50,75,100');
     return;
 end
 
