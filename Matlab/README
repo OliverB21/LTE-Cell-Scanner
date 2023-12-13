@@ -1,0 +1,4 @@
+# 13/12/2023 Update
+
+matlab -r "LTE_DL_receiver(2119.9);exit" -nodesktop > output-test
+This scan returned SI blocks with this committed configuration. (nRB 50 came up)

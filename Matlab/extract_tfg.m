@@ -35,8 +35,8 @@ if nRB == 6
     conv_idx_ratio = 1;
     decimation_ratio = 16;
 elseif nRB == 50
-    conv_idx_ratio = 8;
-    decimation_ratio = 8;
+    conv_idx_ratio = 16;
+    decimation_ratio = 1;
 elseif nRB == 75
     conv_idx_ratio = 12;
     decimation_ratio = 4;
