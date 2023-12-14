@@ -39,7 +39,7 @@ elseif nRB == 50
     decimation_ratio = 1;
 elseif nRB == 75
     conv_idx_ratio = 16;
-    decimation_ratio = 2
+    decimation_ratio = 1;
 elseif nRB == 100
     conv_idx_ratio = 16;
     decimation_ratio = 1;
